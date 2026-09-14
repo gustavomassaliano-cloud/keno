@@ -1,0 +1,6 @@
+{
+  "name": "Keno Tech",
+  "description": "Keno Tech - Transformamos ideias em experiências digitais. Desenvolvimento de sites, sistemas e aplicativos.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

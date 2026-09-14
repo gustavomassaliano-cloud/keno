@@ -1,0 +1,37 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Sora", sans-serif;
+  --font-sans: "Plus Jakarta Sans", sans-serif;
+  
+  --color-brand-red: #C8102E;
+  --color-brand-navy: #0B1C3A;
+  --color-brand-beige: #D5C2A5;
+}
+
+body {
+  font-family: var(--font-sans);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-display);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom scrollbar for webkit */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #F5F2EB; 
+}
+::-webkit-scrollbar-thumb {
+  background: #D5C2A5; 
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #BCA686; 
+}
